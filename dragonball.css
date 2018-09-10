@@ -1,0 +1,111 @@
+body {
+    background-color:#2491ce;
+    width: 955px;
+    margin: auto;
+    
+}
+header {
+    border: solid 5px;
+    width: 724px;
+    height: 160px;
+    background-image: url("http://www.dragonball.com/img/bkgd_header_1.jpg");
+}
+
+nav {
+ width: 99.1%;
+ border: solid 5px #383b42;
+ float: left;
+ background: #383b42;
+ color:#fff;
+ opacity: 0.8;
+ margin-top: 33px;
+ text-align: left;
+}
+
+nav ul {
+ display: inline-block;
+ text-align: center;
+ margin: 0px;
+ padding: 0px;
+}
+nav li {
+ float: left;
+ list-style-type: none;
+}
+
+nav a {
+ color: #000;
+ text-decoration: none;
+ display: block;
+ width: 100px;
+ padding: 8px 0px;
+}
+nav a:hover {
+ background-color: #8d9096;
+ color: #fff;
+}
+
+section {
+    border: solid 2px;
+    width:730px;
+    height:853px;
+    margin-top: 10px;
+    background-color:#000;
+    overflow:auto;
+}
+div {
+    border-radius: 5px;
+    overflow:auto;
+}
+.article{
+    width:710px;
+    border: solid 2px; 
+    margin-top:5px; 
+    margin-left:5px;
+    background-color:#282828; 
+    padding-left:5px;
+    padding-top:5px;
+}
+.divone{
+    width:342px;
+    height:260px;
+    border: solid 2px; 
+    margin-top:5px; 
+    margin-left:5px;
+    background-color:#282828; 
+    padding-left:5px;
+    padding-top:5px; 
+    float:left;
+}
+.divtwo{
+    clear:right;
+    width:340px; 
+    height:361px;
+    border: solid 2px;margin-right:5px; 
+    margin-top:5px; 
+    margin-left:20px;
+    background-color:#282828; 
+    padding-left:5px;
+    padding-top:5px; 
+    float: right;
+}
+.divthree{
+    clear:left ;
+    width:340px;
+    height:86px;
+    border: solid 2px;
+    margin-top:5px; 
+    margin-left:5px;
+    background-color:#282828;
+    padding-left:5px;
+    padding-top:5px;
+    float:left;
+}
+.divfour{
+width:715px;
+height: 250px;
+border: solid 2px;
+background-color: #282828;
+margin-left:5px;
+margin-right: 0px;
+}
